@@ -1,0 +1,21 @@
+Object 클래스 - 모든 클래스의 최상위 클래스
+
+* java.lang
+프로그래밍시 import 하지 않아도 자동으로 import됨
+import.java.lang.*;
+
+모든 클래스는 오브젝트 클래스를 상속 받는다
+Object 클래스의 메서드 중 일부는 재정의해서 사용할 수 있음
+
+
+toString() 메서드
+
+equals() 메서드
+
+
+★ ArrayList
+
+전화번호부
+가위바위보
+섯다 (패 랜덤)
+비밀일기장..?
