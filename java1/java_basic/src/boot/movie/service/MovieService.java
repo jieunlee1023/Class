@@ -19,7 +19,7 @@ public class MovieService implements IMovieService {
 	private ResultSet rs;
 
 	public MovieService() {
-		dbHelper = dbHelper.getInstance();
+		this.dbHelper = dbHelper.getInstance();
 	}
 
 	// TODO
