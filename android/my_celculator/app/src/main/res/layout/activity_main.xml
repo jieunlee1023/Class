@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C9A7FF"
+        android:gravity="end"
+        android:padding="14dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:background="@color/purple_200"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 첫번째 열 start -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/one"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/four"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/seven"
+                android:gravity="center"
+                android:text="7"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+        <!-- 첫번째 열 end -->
+
+        <!-- 두번째 열 start -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/two"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/five"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/eight"
+                android:gravity="center"
+                android:text="8"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+        <!-- 두번째 열 end -->
+
+        <!-- 세번째 열 start -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/three"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/six"
+                android:gravity="center"
+                android:text="6"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/nine"
+                android:gravity="center"
+                android:text="9"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+        <!-- 세번째 열 end -->
+
+        <!-- 네번째 열 start -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:background="#9C60FF"
+                android:layout_weight="1"
+                android:id="@+id/ca"
+                android:gravity="center"
+                android:text="CA"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:background="#8B37FF"
+                android:layout_weight="1"
+                android:id="@+id/plus"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:background="#7614FF"
+                android:layout_weight="1"
+                android:id="@+id/minus"
+                android:gravity="center"
+                android:text="-"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:background="#7614FF"
+                android:layout_weight="1"
+                android:id="@+id/mul"
+                android:gravity="center"
+                android:text="x"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:background="#7614FF"
+                android:layout_weight="1"
+                android:id="@+id/div"
+                android:gravity="center"
+                android:text="%"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:layout_weight="2.5"
+                android:id="@+id/zero"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+        <!-- 네번째 열 end -->
+
+    </LinearLayout>
+
+</LinearLayout>

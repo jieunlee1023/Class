@@ -1,0 +1,19 @@
+/* html 코드를 포함해서는 안된다
+   선택자!
+*/
+
+body{
+    background-color: skyblue;
+}
+
+p {
+    font-size: larger;
+    font-weight: bold; 
+    /* 굵기는 600이 기본값이다. */
+    color: blue;
+    border: 10px dotted cornflowerblue;
+    padding: 20px;
+    margin: 100px;
+    text-align: center
+    ;
+}

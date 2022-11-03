@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    /* 내부 방식 */
+    body{
+        background-color: pink;
+    }
+    h1 {
+        color: palevioletred;
+        /* 인라인 속성이 들어가 있어서 내부에서 적용되지 않는다. */
+    }
+</style>
+
+
+<body>
+    <!-- 
+        HTML Style CSS
+        CSS는 많은 작업을 절약합니다.
+        CSS는 한번에 여러 웹 페이지의 레이아웃을 제어할 수 있다.
+        CSS는 3가지 방법으로 HTML문서에 추가할 수 있다.
+        
+        인라인 - 요소 내부 속성을 사용
+        내부 (Internal) - 섹션에 <style> 여러 요소를 사용 </style>
+        외부 (External) - <link> 요소를 사용해서 외부 CSS 파일을 연결 할 수 있다.
+
+        인라인 요소 > 내부와 외부는 선언 순서에 따라서 적용된다.
+     -->
+
+     <!-- 인라인 방식 -->
+     <h1 style="color: red;"> 첫번째 제목 </h1> 
+     <h1> 두번째 제목 </h1> 
+    
+     <p> 여기는 단락입니다. </p>
+
+
+</body>
+</html>
