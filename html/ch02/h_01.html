@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+        span{
+            background-color: palevioletred;
+            padding: 20px;
+            margin: 30px;
+        }
+        /* 두개의 선택자를 지정하는 방법 콤마(,) */
+        /* .tomato, */
+        .hello {
+            display: block; 
+            /* 디스플레이 속성을 block으로 바꾸기 */
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <span>span 태그</span>
+    <span>span 태그</span>
+    <!-- 
+        inline 높이와 너비가 없기 때문에
+        margin은 좌, 우 에만 적용이 된다.
+        하지만 padding은 상하좌우 다 적용이 된다.
+
+        inline 요소에 상, 하 마진을 적용하고 싶다면
+        block 속성으로 변경해야 한다.
+     -->
+    <span>span 태그</span>
+    <span class="tomato">span 태그</span>
+    <span class="tomato">span 태그</span>
+    <span class="tomato">span 태그</span>
+    <span class="tomato hello potato">span 태그</span>
+     <!-- 클래스는 여러개의 식별자를 가질 수 있다. -->
+</body>
+</html>

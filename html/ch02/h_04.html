@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- flex box
+    규칙1. 
+    자식들을 원하는대로 움직이게 하기 위해서는 
+    부모를 flex-container로 만들어주면 된다. 
+    규칙2.
+    주축(main axis), 교차축(cross axis)
+    justifiy-content, justify (현재 방향 주축을 담당하는 속성이다.)
+    align-items (교차축을 담당하는 속성이다.)
+    기본적으로 주축은 수평, 교차축은 수직이다.
+    -->
+    <style>
+        body{
+            margin: 0px;
+            display: flex;
+            /* justify-content: space-between; */
+            
+            height: 100vh;
+            /* vh: viewport height 
+            screen 크기라고 생각하면 된다. */
+            align-items: flex-start; 
+            align-items: flex-end;
+            align-items: center; 
+        }
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: violet;
+        }
+        #second{
+            background-color: darkviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>1</div>
+    <div id="second">2</div>
+    <div>3</div>
+</body>
+</html>

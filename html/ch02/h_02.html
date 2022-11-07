@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+        div {
+            width: 50px;
+            height: 50px;
+            background-color: pink;
+
+            display: inline;
+            /* inline은 높이와 너비가 없기 때문에 사라짐 */
+            display: inline-block;
+            /* inline-block은 block이 inline 속성을 가지게 해준다.
+               다만, inline-block 많은 문제를 발생 시킬 수 있다.
+               기본값 때문에 렌더링 부분을 보게 되면 
+               margin값을 준 적이 없지만, 적용이 되어 있다.
+               그리고 정해진 형식이 정확히 없다.
+               반응형을 지원하지 못한다. --> flex, grid*/
+        }
+        
+    </style>
+</head>
+<body>
+    <!--  div를 인라인 요소로 변경하기 -->
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    
+
+</body>
+</html>
