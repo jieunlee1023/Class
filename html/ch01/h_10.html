@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div.yellow_box span {background-color: yellow;}
+        div#c_box span{color: gold; text-align: center; padding: 10px;}
+        
+        div span.blue_span{
+            background-color: brown;
+        }
+
+        div span#c_span{
+            background-color: orange; font-size: 25px;
+        }
+
+        ul > li {
+            list-style: none;
+        }
+        /*  > 특수문자를 사용하는 선택자도 있다
+            이는 공백을 넣은 것과 비슷하지만, 두 태그 사이에 다른 태그가 없는
+            순수 부모-자식 태그간의 관계만 적용이 된다.
+        */
+
+        
+        /* .aa .cc {background-color: tomato;} */
+        .aa > .cc {background-color: tomato;}
+
+    </style>
+</head>
+
+<body>
+    <!-- 선택자 2
+    
+        부모 & 자식 선택자
+        태그이름 사이에 공백을 넣은 선택자는 부모 태그 하위에 있는 태그에 스타일을 적용 시킨다.
+
+        div span {text-align : center; padding : 10px;}
+    -->
+
+    <div>
+        <span>여기는 span이야</span>
+    </div>
+
+    <div class="yellow_box">
+        <span>yellow_box div 클래스 내의 span 태그</span>
+    </div>
+
+    <div id="c_box">
+        <span>c_box 아이디 내의 span태그</span>
+    </div>
+    
+    <div>
+        <span id="c_span">div 내의 c_span 아이디 span 태그 </span>
+    </div>
+
+    <div>
+        <span>yellow_box div 클래스 내에 있지 않은 span태그 입니다</span>
+    </div>
+
+    <div>
+        <span class="blue_span">div내의 클래스 blue_span span 태그</span>
+    </div>
+
+    <div>
+        <span>c_bot div 아이디 내에 있지 않은 span 태그</span>
+        
+
+    <ul>
+        <li>안녕하세요</li>
+        <li>방갑습니다</li>
+        <li>행복하세요</li>
+        <li>감사합니다</li>
+        <li>수고하세요</li>
+    </ul>
+
+
+    <div class="aa">
+        <div class="cc">section 1</div>
+    </div>
+    
+    <div class="aa">
+        <div class="bb">
+            <div class="cc">section 2</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

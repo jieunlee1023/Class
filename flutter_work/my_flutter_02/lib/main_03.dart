@@ -24,8 +24,4 @@ void main(){
   print (tagList[1]);
 
   Map images ={}; // Map --> {}  / List --> []
-
-
-
-
 }
