@@ -22,7 +22,7 @@ class ProfilePage extends StatelessWidget {
           ProfileCountInfo(),
           const SizedBox(height: 20),
           ProfileButtons(),
-          //남아 있는 세로 공간을 모두 차지하기 위해 Expended를 준다.
+          // //남아 있는 세로 공간을 모두 차지하기 위해 Expended를 준다.
           const SizedBox(height: 20),
           Expanded(child:ProfileTab()),
         ],

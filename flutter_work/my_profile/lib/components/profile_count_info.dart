@@ -8,6 +8,7 @@ class ProfileCountInfo extends StatelessWidget {
 
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
+      // spaceAround : 적절하게 여백을 줌
       children: [
         _buildInfo("50", "Posts"),
         _buildLine(),

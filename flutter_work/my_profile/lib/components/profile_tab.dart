@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 class ProfileTab extends StatefulWidget {
-  // 인스타처럼 상태가 변해야 할때 스테이트풀~
+  // 인스타처럼 상태가 변해야 할때 스테이트풀!
   const ProfileTab({Key? key}) : super(key: key);
 
   @override
   State<ProfileTab> createState() => _ProfileTabState();
 }
 
-// 1. TabBar : 탭의 가로 행을 표시하는 머터리얼 디자인 위젯 !!
+// 1. TabBar : 탭의 가로 행을 표시하는 metarial 디자인 위젯 !!
 
 // 2. TabBarView : 현재 선택된 탭에 화면을 표시하는 위젯 이다 !!
 //   -- TabBar 위젯과 TabBarView 위젯의 controller 속성에 TabController 객체를 연결하면
@@ -16,6 +16,7 @@ class ProfileTab extends StatefulWidget {
 
 // 3. SingleTickerProviderStateMixin > 한개의 애니메이션을 가진 위젯을 정의할 때 사용합니다.
 //    두개 이상의 애니메이션을 가진 위젯을 정의하려면 TickerProviderStateMixin 을 사용해야 합니다. !!
+
 class _ProfileTabState extends State<ProfileTab>
     with SingleTickerProviderStateMixin {
   TabController? _tabController;

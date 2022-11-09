@@ -5,7 +5,6 @@ import 'package:my_profile/theme.dart';
 
 // 최상위 함수
 void main () {
-
   runApp(MyApp());
 }
 
