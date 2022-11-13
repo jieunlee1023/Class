@@ -1,0 +1,8 @@
+1. 프로젝트 최상단 assets 폴더 생성
+2. lib/components 패키지 생성
+3. lib/pages 패키지 생성
+4. lib/pages/home_page.dart 파일 생성
+5. lib/pages/login_page.dart 파일 생성
+6. lib/size.dart 파일 생성
+7. pubspec.yaml 파일 assets 설정 후 우측 상단 pub get 실행
+8. logo 이미지 구글 다운로드 (원하는 이미지)
