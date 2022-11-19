@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 함수 설계 --> 사용자한테 값을 확인
+        // 문구는 당신은 남성입니까 ? 
+        // 남성이면 군대가세요, 여성이면 커피숍을 갑시다.
+
+        function gender(){
+            let ans = confirm("당신은 남성입니까?");
+            let ans2 = prompt("당신은 몇 살 입니까 ?");
+            if (ans == true){
+                document.write("남자고 "+ans2+"살 입니다.");
+            } else {
+                document.write("여자고 "+ans2+"살 입니다.");
+            }
+            
+        }
+
+
+    </script>
+</head>
+<body >
+
+    <script>
+        gender();
+    </script>
+
+</body>
+</html>

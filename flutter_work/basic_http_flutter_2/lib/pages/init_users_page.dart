@@ -36,6 +36,7 @@ class _InitUsersPageState extends State<InitUsersPage> {
     // var endPoint = "/users";
     var uri = Uri.parse("http://lalacoding.site/init/user");
     http.Response response = await http.get(uri);
+    print(response.)
     // print(response.statusCode);
     // 방어적 코드
     if (response.statusCode == 200) {

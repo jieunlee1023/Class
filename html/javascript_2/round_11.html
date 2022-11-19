@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function info(x) {
+            for (i = 1; i < 10; i++){
+                document.write("<br>x : " + x + "<br> i : "+ i);
+            }
+        }
+
+        // 구구단을 만들어주세요
+        // 1. prompt로 받아서 
+        // 2. 전체 구구단 출력
+       
+        function all_mul (){
+            document.write("--------<전체 구구단>--------<br>");
+            for (i = 2; i<10; i++){
+                for(j=1; j<10; j++){
+                    document.write(i+ " * " + j +" = " + (i*j)+"<br>");
+                }
+                document.write("------------------------<br>");
+            }
+        }
+        let num = prompt("몇 단을 원하십니까?");
+        function mul (num){
+            document.write("--------<원하는 구구단>--------<br>");
+            for(i=1; i<10; i++){
+                document.write(num+ " * " + i +" = " + (num*i)+"<br>");
+            }
+        }
+    </script>
+</head>
+<body >
+
+    <!-- <button onclick="info(1)">버튼 클릭!</button> -->
+
+    <script>
+        mul(num);
+        all_mul();
+    </script>
+
+</body>
+</html>

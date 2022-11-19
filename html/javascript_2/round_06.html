@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //confirm 
+        //매개변수로 문자열을 가지고, 이녀석은 사용자에게 보여줄 메시지 입니다.
+        // 확인 -> true, 취소 -> false 반환 합니다.
+        function question() {
+            let ans = confirm("지금 비오나요?");
+            if(ans == true){
+                document.write('우산을 들고 나가세요!');
+            } else {
+                document.write('그냥 고!');
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <br>
+    <script>
+        question();
+    </script>
+</body>
+</html>
