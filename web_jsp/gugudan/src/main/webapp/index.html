@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>JSP로 구구단 검색</h1>
+	<form action="gugudan-jsp.jsp" method="post">
+		<input type="number" placeholder="몇 단을 알고 싶으신가요?" name="num">
+		<input type="submit" value="확인">
+	</form>
+	<br>
+	<br>
+	<h1>Servlet으로 구구단 검색</h1>
+	<form action="/gugudan/gugudan-servlet" method="post">
+		<input type="number" placeholder="몇 단을 알고 싶으신가요?" name="num">
+		<input type="submit" value="확인">
+	</form>
+
+
+</body>
+</html>
