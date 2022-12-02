@@ -10,6 +10,7 @@
 
 	<%
 	System.out.print("여기는 로그인 jsp 입니다!");
+	
 	session = request.getSession();
 	if (session.getAttribute("mId") != null) {
 		response.sendRedirect("login-ok.jsp");
